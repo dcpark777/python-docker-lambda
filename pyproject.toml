@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-docker-lambda"
+version = "0.1.0"
+description = ""
+authors = ["Dan Park <dan.park.primary@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+boto3 = "^1.34.136"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
